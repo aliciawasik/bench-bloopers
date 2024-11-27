@@ -1,5 +1,18 @@
 import sqlite3
 import datetime
+import tkinter as tk
+
+window = tk.Tk() # Create the main window
+window.title("Custom Window") # Set the title of the window
+window.geometry("400x300") # Set the window size (width x height)
+
+label = tk.Label(window, text="Welcome to Bench Bloopers") # Add a label widget to window
+label.pack(pady=20) # Add padding around label
+
+button = tk.Button(window, text="Click Me", command=lambda: print("Button clicked!")) # Add a button to the window
+button.pack(pady=10)
+
+window.mainloop() # Run the Tkinter event loop to display window
 
 # Set up the database
 def create_db():
