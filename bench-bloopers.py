@@ -3,7 +3,7 @@ import datetime
 import tkinter as tk
 
 window = tk.Tk() # Create the main window
-window.title("Custom Window") # Set the title of the window
+window.title("Bench Bloopers") # Set the title of the window
 window.geometry("400x300") # Set the window size (width x height)
 
 label = tk.Label(window, text="Welcome to Bench Bloopers") # Add a label widget to window
